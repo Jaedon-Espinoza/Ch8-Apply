@@ -1,0 +1,67 @@
+/*
+Author: Jaedon Espinoza
+Date: 11/14/2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style rules for the table element */
+table {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #71881b;
+}
+
+/* Had to border collapse */
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style rules for caption */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/* Sets the border for the th and td element */
+th, td {
+	border: 1px solid #7188bb;
+}
+
+/* Aligns the text to center for td elements */
+td {
+	text-align: center;
+}
+
+/* Sets the background color for every third row */
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}
